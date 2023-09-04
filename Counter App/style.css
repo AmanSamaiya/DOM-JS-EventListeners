@@ -1,0 +1,37 @@
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.Counter {
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px 20px;
+}
+
+.Counter div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Counter div p {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  height: 25px;
+  width: 45px;
+  margin: 0 10px;
+}
+.Counter div button {
+  font-size: 15px;
+  font-weight: 800;
+}
+.Counter button {
+  font-size: 15px;
+  font-weight: 800;
+}
